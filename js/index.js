@@ -1,6 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log("XXXXXXXXXXXXXX...........Contenido cargado.....");
 
+    document.querySelector('a-scene').addEventListener('loaded', () => {
+        console.log('XXXXXXXXX...............Escena completamente cargada');
+      });
+
+      window.addEventListener("arjs-nft-loaded", (event) => {
+        // Hide loading overlay
+
+        console.log("XXXXXXXXXXXXXXX.................arjs-nft-loaded");
+        });
+
 
     if (navigator.xr) {
         navigator.xr.isSessionSupported('immersive-ar').then((supported) => {
@@ -20,15 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
 
-    window.addEventListener("arjs-nft-loaded", (event) => {
-        // Hide loading overlay
 
-        console.log("XXXXXXXXXXXXXXX.................arjs-nft-loaded");
-    });
 
-      document.querySelector('a-scene').addEventListener('loaded', () => {
-        console.log('XXXXXXXXX...............Escena completamente cargada');
-      });
+
+
 
 
       document.querySelector('[gltf-model]').addEventListener('loaded', () => {
