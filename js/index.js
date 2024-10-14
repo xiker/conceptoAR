@@ -5,12 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
     if (navigator.xr) {
         navigator.xr.isSessionSupported('immersive-ar').then((supported) => {
           if (supported) {
+            document.querySelector(".mensajeLoading").innerHTML = 'WebXR AR está soportado en este navegador';
             console.log('WebXR AR está soportado en este navegador');
           } else {
             document.querySelector(".mensajeLoading").innerHTML = "WebXR AR no está soportado en este navegador";
             console.log('WebXR AR no está soportado en este navegador');
           }
         }).catch((err) => {
+            document.querySelector(".mensajeLoading").innerHTML = 'ERROR:: al comprobar el soporte de WebXR';
           console.log('Error al comprobar el soporte de WebXR: ', err);
         });
       } else {
