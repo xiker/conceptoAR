@@ -1,0 +1,11 @@
+Model Information:
+* title:	FAMAS F1 (АТБ security skin)
+* source:	https://sketchfab.com/3d-models/famas-f1-security-skin-2f478359317e4721aeb6d784d74ed7e1
+* author:	Nortenko Dmytro (https://sketchfab.com/leondp)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "FAMAS F1 (АТБ security skin)" (https://sketchfab.com/3d-models/famas-f1-security-skin-2f478359317e4721aeb6d784d74ed7e1) by Nortenko Dmytro (https://sketchfab.com/leondp) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

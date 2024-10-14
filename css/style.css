@@ -21,3 +21,17 @@ body{
     font-size: 1.25em;
     color: white;
   }
+
+ 
+  .imagenExpuesta{
+    width: 100%;
+    height: 100%;
+    padding-block: 100px;
+    background-color: blueviolet;
+    img{
+        display: block;
+        margin-inline: auto;
+        width: 400px;
+    }
+
+  }
