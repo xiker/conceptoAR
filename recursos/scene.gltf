@@ -3,24 +3,24 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 4245,
+      "count": 24,
       "max": [
-        0.021356884390115738,
-        0.3924252390861511,
-        0.10891634225845337
+        9.532951354980469,
+        9.532954216003418,
+        9.532951354980469
       ],
       "min": [
-        -0.022646265104413033,
-        -0.36879023909568787,
-        -0.1566639393568039
+        0.0,
+        0.0,
+        0.0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 50940,
+      "byteOffset": 288,
       "componentType": 5126,
-      "count": 4245,
+      "count": 24,
       "max": [
         1.0,
         1.0,
@@ -34,178 +34,87 @@
       "type": "VEC3"
     },
     {
-      "bufferView": 3,
+      "bufferView": 1,
       "componentType": 5126,
-      "count": 4245,
+      "count": 24,
       "max": [
-        1.0,
-        1.0,
-        1.0,
+        0.875,
         1.0
       ],
       "min": [
-        -1.0,
-        -1.0,
-        -1.0,
-        -1.0
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 1,
-      "componentType": 5126,
-      "count": 4245,
-      "max": [
-        0.997560977935791,
-        0.9942950010299683
-      ],
-      "min": [
-        0.0024369999300688505,
-        0.0024369999300688505
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 33960,
-      "componentType": 5126,
-      "count": 4245,
-      "max": [
-        0.997560977935791,
-        0.9942950010299683
-      ],
-      "min": [
-        0.0024369999300688505,
-        0.0024369999300688505
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 67920,
-      "componentType": 5126,
-      "count": 4245,
-      "max": [
-        0.997560977935791,
-        0.9942950010299683
-      ],
-      "min": [
-        0.0024369999300688505,
-        0.0024369999300688505
+        0.125,
+        0.0
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 9003,
+      "count": 36,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "Nortenko Dmytro (https://sketchfab.com/leondp)",
+      "author": "artwork guide (https://sketchfab.com/artworkguide)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/famas-f1-security-skin-2f478359317e4721aeb6d784d74ed7e1",
-      "title": "FAMAS F1 (АТБ security skin)"
+      "source": "https://sketchfab.com/3d-models/cube-48b8725fd63a4562abc181cf09b1333a",
+      "title": "Cube"
     },
-    "generator": "Sketchfab-16.51.0",
+    "generator": "Sketchfab-12.66.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 36012,
+      "byteLength": 144,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 101880,
-      "byteOffset": 36012,
+      "byteLength": 192,
+      "byteOffset": 144,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 101880,
-      "byteOffset": 137892,
+      "byteLength": 576,
+      "byteOffset": 336,
       "byteStride": 12,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 67920,
-      "byteOffset": 239772,
-      "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 307692,
+      "byteLength": 912,
       "uri": "scene.bin"
-    }
-  ],
-  "extensionsUsed": [
-    "KHR_materials_specular"
-  ],
-  "images": [
-    {
-      "uri": "textures/famas-f1-atb-skin_baseColor.jpeg"
-    },
-    {
-      "uri": "textures/famas-f1-atb-skin_metallicRoughness.png"
-    },
-    {
-      "uri": "textures/famas-f1-atb-skin_normal.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "extensions": {
-        "KHR_materials_specular": {
-          "specularColorFactor": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "specularFactor": 0.35
-        }
-      },
-      "name": "famas-f1-atb-skin",
-      "normalTexture": {
-        "index": 2
-      },
+      "name": "Scene_-_Root",
       "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 0
-        },
-        "metallicRoughnessTexture": {
-          "index": 1
-        },
-        "roughnessFactor": 0.92
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
       }
     }
   ],
   "meshes": [
     {
-      "name": "famas-f1-atb-skin_famas-f1-atb-skin_0",
+      "name": "Object_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3,
-            "TEXCOORD_1": 4,
-            "TEXCOORD_2": 5
+            "TEXCOORD_0": 2
           },
-          "indices": 6,
+          "indices": 3,
           "material": 0,
           "mode": 4
         }
@@ -242,66 +151,34 @@
         2
       ],
       "matrix": [
-        0.009999999776482582,
+        1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        0.0,
-        0.009999999776482582,
-        0.0,
-        0.0,
-        -0.009999999776482582,
+        1.0,
         0.0,
         0.0,
         0.0,
         0.0,
+        1.0,
         0.0,
+        48.656646728515625,
+        -4.766477108001709,
+        48.86415100097656,
         1.0
       ],
-      "name": "f1cd5b477ada433999db217c56d749a2.fbx"
+      "name": "dffe90575da14880acb7e9904a499fe3.obj.cleaner.materialmerger.gles"
     },
     {
       "children": [
         3
       ],
-      "name": "RootNode"
-    },
-    {
-      "children": [
-        4
-      ],
-      "matrix": [
-        100.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        -1.629206793918314e-05,
-        -99.99999999999868,
-        0.0,
-        0.0,
-        99.99999999999868,
-        -1.629206793918314e-05,
-        0.0,
-        0.00011633292160695419,
-        15.88399600982666,
-        -0.01512265857309103,
-        1.0
-      ],
-      "name": "famas-f1-atb-skin"
+      "name": "Object_2"
     },
     {
       "mesh": 0,
-      "name": "famas-f1-atb-skin_famas-f1-atb-skin_0"
-    }
-  ],
-  "samplers": [
-    {
-      "magFilter": 9729,
-      "minFilter": 9987,
-      "wrapS": 10497,
-      "wrapT": 10497
+      "name": "Object_3"
     }
   ],
   "scene": 0,
@@ -311,20 +188,6 @@
       "nodes": [
         0
       ]
-    }
-  ],
-  "textures": [
-    {
-      "sampler": 0,
-      "source": 0
-    },
-    {
-      "sampler": 0,
-      "source": 1
-    },
-    {
-      "sampler": 0,
-      "source": 2
     }
   ]
 }
