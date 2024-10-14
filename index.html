@@ -1,10 +1,11 @@
-<!--
+
 <html>
     <head>
         <title>Concepto AR</title>
         <script src="js/index.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
-<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -17,7 +18,7 @@
                 embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;''>
 
             <a-nft
-                type='nft' url='./recursos/bird.png'
+                type='nft' url='./recursos/bird'
                 smooth='true' smoothCount='10' smoothTolerance='0.01' smoothThreshold='5'>
                 <a-entity
                     gltf-model='./recursos/scene.gltf'
@@ -31,7 +32,7 @@
 
     </body>
 </html>
--->
+<!--
 <html>
 <head>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
@@ -50,3 +51,4 @@
     </a-scene>
 </body>
 </html>
+-->
